@@ -9,6 +9,8 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: 35px;
+
+ 
 }
 
 header nav {
@@ -17,18 +19,8 @@ header nav {
 
 header ul {
   display: flex;
-  flex-wrap: wrap;
-  list-style-type: none;
-
 }
 
-header a {
-  text-decoration: none;
-}
-
-header ul li {
-  margin-right: 40px;
-}
 
 header .border-blue {
   padding: 40px;
@@ -56,7 +48,7 @@ header .border-blue:hover {
   display: flex;
   justify-content: center;
   align-items: center;
-  font-size: 112%
+ 
 }
 
 .search-bar input {
@@ -64,7 +56,7 @@ header .border-blue:hover {
   width: 120px;
   border: #f2f2f2 1px solid;
   font-weight: 600;
-  font-size: 112%;
+  
 }
 
 .search-bar input::placeholder {
@@ -73,7 +65,7 @@ header .border-blue:hover {
 }
 
 .recherche {
-  border-radius: 0 20px 20px 0;
+  border-radius: 0 10px 10px 0;
   height: 50px;
   width: 100px;
   display: flex;
@@ -507,4 +499,8 @@ margin: auto;
 
 }
 
+img, table, td, blockquote, code, pre, textarea, input, iframe,
+object, embed, video {
+max-width: 100%;
+}
 
