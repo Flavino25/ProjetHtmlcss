@@ -9,8 +9,7 @@ header {
   display: flex;
   justify-content: space-between;
   margin-top: 35px;
-
- 
+   
 }
 
 header nav {
@@ -59,11 +58,6 @@ header .border-blue:hover {
   
 }
 
-.search-bar input::placeholder {
-  color: rgb(53, 48, 48);
-  padding-left: 20px;
-}
-
 .recherche {
   border-radius: 0 10px 10px 0;
   height: 50px;
@@ -84,8 +78,8 @@ header .border-blue:hover {
 }
 
 h1 {
-  margin-top: 25px;
-  margin-bottom: 10px;
+  margin-top: 50px;
+  margin-bottom: 20px;
 }
 
 .search-bar p {
@@ -380,8 +374,9 @@ gap: 2em;
   height: 300px;
   display: flex;
   padding-top: 40px;
-  margin-left: 0;
-  text-decoration: none;
+ text-decoration: none;
+  
+
 }
 
 .footer1 {
@@ -494,7 +489,7 @@ margin: auto;
 .footer {
   display: flex;
   flex-direction: column;
-  align-items: flex-start;
+  
 }
 
 }
